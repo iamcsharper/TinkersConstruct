@@ -27,9 +27,9 @@ public class AlloyMix {
             if (liquid == null) {
                 continue; // Skip this iteration if liquid is null
             }
-            
+
             for (FluidStack mixer : copyMix) {
-                 // Check if the mixer is null
+                // Check if the mixer is null
                 if (mixer == null) {
                     continue; // Skip this iteration if mixer is null
                 }
