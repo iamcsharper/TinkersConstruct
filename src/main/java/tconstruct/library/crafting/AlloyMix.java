@@ -24,7 +24,7 @@ public class AlloyMix {
         ArrayList<Integer> effectiveAmount = new ArrayList<>();
 
         for (FluidStack liquid : liquids) {
-            if (mixer == null) {
+            if (liquid == null) {
                 continue; // Skip this iteration if liquid is null
             }
             
